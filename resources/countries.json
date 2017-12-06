@@ -1,0 +1,42 @@
+{
+  "Italia": {
+    "longitude": "12.645745",
+    "latitude": "42.784373"
+  },
+  "Polonia": {
+    "longitude": "19.325432",
+    "latitude": "52.406656"
+  },
+  "Reino Unido": {
+    "longitude": "-2.954841",
+    "latitude": "54.115014"
+  },
+  "República Checa": {
+    "longitude": "15.512923",
+    "latitude": "49.839860"
+  },
+  "Irlanda": {
+    "longitude": "-7.864309",
+    "latitude": "53.286446"
+  },
+  "Alemania": {
+    "longitude": "10.214671",
+    "latitude": "51.295592"
+  },
+  "Holanda": {
+    "longitude": "5.459004",
+    "latitude": "52.329424"
+  },
+  "Malta": {
+    "longitude": "14.423925",
+    "latitude": "35.905097"
+  },
+  "Hungría": {
+    "longitude": "19.459022",
+    "latitude": "47.170935"
+  },
+  "Noruega": {
+    "longitude": "14.044406",
+    "latitude": "66.230900"
+  }
+}

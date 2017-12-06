@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <script src='code.js'></script>
+
+    <script type="text/javascript"
+     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAVNEgIQd_vNQXSWesC28iTZ_LAnfVf6TM&sensor=true">
+   </script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="inicializarPag()">
+    <div id="container">
+      <div id="controls">
+        <div id="controlsFirstRow">
+          <div id="movilidad">
+            <label for="movilidadCombo">Tipo de movilidad:</label>
+            <select id= "movilidadCombo" onchange="onChangeGrado()">
+             <option value="Grado Medio">Grado Medio</option>
+             <option value="Grado Superior">Grado Superior</option>
+             <option value="Profesorado">Profesorado</option>
+             <option value="Todos">Todos</option>
+            </select>
+          </div>
+          <div id="filtro">
+            Ciclo
+            <label class="switch">
+              <input type="checkbox" id="selectFilter" onchange="changeFilterOption()">
+              <span class="slider round"></span>
+            </label>
+             Pais
+          </div>
+            <button onclick="verTodasLasCiudades()" id="butt">Ver Todas Las Ciudades</button>
+        </div>
+        <div id="selectedFilters">
+        </div>
+      </div>
+      <div id="mapContainer"></div>
+    </div>
+  </body>
+</html>
